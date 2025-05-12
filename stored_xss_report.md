@@ -1,4 +1,4 @@
-# [Stored Cross-Site Scripting (XSS)] in [User Registration & Login and User Management System with Admin Panel] <= v1.0  
+# [Stored Cross-Site Scripting (XSS)] in [User Registration & Login and User Management System] <= v1.0  
 **BUG Author:** Girish
 
 ---
