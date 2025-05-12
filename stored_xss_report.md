@@ -35,10 +35,12 @@ User-controlled input (`First Name`, `Last Name`) is not sanitized or encoded be
 1. Navigate to: http://localhost/loginsystem/signup.php
 2. Input the following payload in the **First Name** or **Last Name** field:  
   "girish"><img src=x onerror=alert(1)>"
-3. Complete the registration.
-4. Log in as Admin and go to:
+![First Stage Screenshot](images/1.png)
+4. Complete the registration.  
+5. Log in as Admin and go to:
 http://localhost/loginsystem/admin/dashboard.php
-5.A JavaScript alert(1) will be triggered — confirming the stored XSS.
+![Second Stage Screenshot](images/2.png)
+6.A JavaScript alert(1) will be triggered — confirming the stored XSS.
 
 **Attack Scenario**
 An attacker signs up with an XSS payload in their name field. When the admin visits the dashboard to manage users, the injected script executes in the context of the admin’s browser session. This can lead to:
