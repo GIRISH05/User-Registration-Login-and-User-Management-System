@@ -34,7 +34,7 @@ User-controlled input (`First Name`, `Last Name`) is not sanitized or encoded be
 
 1. Navigate to: http://localhost/loginsystem/signup.php
 2. Input the following payload in the **First Name** or **Last Name** field:  
-  "girish"><img src=x onerror=alert(1)>"
+  
 
 ![First Stage Screenshot](images/1.png)
 
